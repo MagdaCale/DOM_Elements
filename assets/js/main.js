@@ -19,6 +19,33 @@ change.addEventListener('click', () => {
 /* ====================================================================== */
 
 
+const exampleClass = document.getElementsByClassName('example')
+
+let clicked = false
+
+const myFunction = () => {
+
+    if(clicked === false) {
+        for(let i = 0; i < exampleClass.length; i++ ){
+            exampleClass[i].style.color = '#fff'
+            exampleClass[i].style.backgroundColor = '#000'
+        }
+        clicked = true
+    }else{
+        for(let i = 0; i < exampleClass.length; i++ ){
+            exampleClass[i].style.color = '#fff'
+            exampleClass[i].style.backgroundColor = '#666'
+        }
+        clicked = false
+    }
+}
+
+
+
+/* ====================================================================== */
+
+
+
 const submit = document.querySelector('input[type = submit]')
 
 
