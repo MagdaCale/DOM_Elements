@@ -1,3 +1,5 @@
+
+/* lev1_2: DOM Elements */
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,6 +25,9 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
+li a:hover{
+    cursor: pointer;
+}
 
 .active {
     background-color: #4CAF50;
@@ -31,6 +36,8 @@ li a:hover:not(.active) {
 
 
 /* ====================================================================== */
+
+/* lev2_1: DOM Elements */
 
 
 .style {
@@ -49,6 +56,9 @@ li a:hover:not(.active) {
 }
 
 /* ====================================================================== */
+
+/* lev2_2: DOM Elements */
+
 
 input[type=text],
     select {
@@ -84,3 +94,13 @@ input[type=submit]:hover {
 
 
 /* ====================================================================== */
+
+
+/* lev2_3: DOM Elements// gleich wie 1_2 oben */
+
+
+/* 
+
+Farben: #f6c89f, #ffe7d1, #4b8e8d, #396362, #666, #333 
+
+*/
