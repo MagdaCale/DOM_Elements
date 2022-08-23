@@ -62,9 +62,7 @@ submit.addEventListener('click', ()=> {
 })
 
 
-
 /* ====================================================================== */
-
 
 
 const change2 = document.getElementById('navChange2')
@@ -75,7 +73,6 @@ let checked2 = false
 change2.addEventListener('click', () => {    
 
     if(checked2 === false) { 
-        //document.getElementsByTagName("a")[4].style.backgroundColor = '#f6c89f'
         aTag[4].style.backgroundColor = '#f6c89f'
         aTag[4].style.color = '#333'
 
@@ -105,5 +102,7 @@ change2.addEventListener('click', () => {
 
         checked2 = false
     } 
-
 })
+
+/* ====================================================================== */
+
