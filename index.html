@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Das DOM - Document Object Model</title>
+</head>
+
+<body>
+    <h2>lev2_1: DOM Elements</h2>
+    <ul>
+        <div class="listContainer">
+            <li><a class="nav" id="navHome" href="#home">Home</a></li>
+            <li><a class="nav" id="navNews" href="#news">News</a></li>
+            <li><a class="nav" id="navContact" href="#contact">Contact</a></li>
+        </div>
+        <li class="nav"><a class="active" id="navChange">Change me</a></li>
+    </ul>
+
+<!--     ====================================================================== -->
+
+    <h2>lev2_2: DOM Elements</h2>
+
+    <div class="lev2_2">
+        <form id="form1" onsubmit="return false">
+            <label for="vorname">Vorname</label>
+            <input type="text" id="vorname" name="vorname" placeholder="Dein Name..."><label for="nachname">Last Name</label>
+            <input type="text" id="nachname" name="nachname" placeholder="Dein Nachname..."><label for="land">Land</label>
+
+            <select id="land" name="land">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option>
+            </select>
+
+            <input type="submit" value="Submit"></form>
+    </div>
+    
+
+
+    <script src="./assets/js/main.js"></script> 
+</body>
+</html>
